@@ -369,7 +369,7 @@ header .header-middle .right-side .inner a {
 
 header .header-middle .left-side .inner a .icon,
 header .header-middle .right-side .inner a .icon {
-    font-size: 2.4em;
+    font-size: 2em;
     color: #121212;
 }
 
@@ -384,7 +384,7 @@ header .header-middle .right-side .inner a .text {
 
 header .header-middle .left-side .inner a .text b,
 header .header-middle .right-side .inner a .text b {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: var(--color-main);
     font-weight: 400;
     margin-bottom: 2px;
@@ -392,7 +392,7 @@ header .header-middle .right-side .inner a .text b {
 
 header .header-middle .left-side .inner a .text span,
 header .header-middle .right-side .inner a .text span {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #121212;
     font-weight: 600;
     transition: 0.3s all ease-out;
