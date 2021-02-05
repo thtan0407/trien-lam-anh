@@ -59,6 +59,11 @@ textarea:focus {
     outline: none !important;
 }
 
+.page {
+    overflow-x: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 /* Start Decor & Button */
 .heading {
     position: relative;
@@ -192,7 +197,7 @@ header .header-top .left-side .inner > ul {
 }
 
 header .header-top .left-side .inner > ul > li {
-    margin-right: 40px;
+    margin-right: 30px;
     position: relative;
 }
 
@@ -202,7 +207,7 @@ header .header-top .left-side .inner > ul > li:not(:last-of-type):after {
     display: block;
     width: 1px;
     height: 14px;
-    right: -20px;
+    right: -15px;
     top: 50%;
     background: #eee9e9;
     transform: translateY(-50%);
@@ -214,7 +219,7 @@ header .header-top .left-side .inner > ul > li a {
     padding: 5px 0;
     color: #ddd;
     display: inline-block;
-    font-size: 1.05em;
+    font-size: 1em;
     transition: .3s all ease;
     -webkit-transition: .3s all ease;
 }
@@ -239,7 +244,7 @@ header .header-top .right-side .inner > ul {
 }
 
 header .header-top .right-side .inner > ul > li {
-    margin-left: 40px;
+    margin-left: 30px;
     position: relative;
 }
 
@@ -250,7 +255,7 @@ header .header-top .right-side .inner > ul > li:not(:first-of-type):after {
     display: block;
     width: 1px;
     height: 14px;
-    left: -20px;
+    left: -15px;
     top: 50%;
     background: #eee9e9;
     transform: translateY(-50%);
@@ -263,7 +268,7 @@ header .header-top .right-side .inner > ul > li > .dropdown > a {
     padding: 5px 0;
     color: #ddd;
     display: inline-block;
-    font-size: 1.05em;
+    font-size: 1em;
     transition: .3s all ease;
     -webkit-transition: .3s all ease;
 }
