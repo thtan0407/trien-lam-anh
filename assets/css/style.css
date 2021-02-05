@@ -639,7 +639,7 @@ header .header-bottom .right-side .dropdown > a > i {
 @media (min-width: 992px) {
     .banner .slider,
     .banner .slide {
-        height: 550px;
+        height: 450px;
     }
 }
 
