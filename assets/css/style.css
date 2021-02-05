@@ -1337,6 +1337,10 @@ header .header-bottom .right-side .dropdown > a > i {
     display: block;
 }
 
+.product-wrap .product-links a.acitve i {
+    color: var(--active-color);
+}
+
 .product-wrap .product-links a:hover {
     color: #fff;
 }
@@ -1347,9 +1351,6 @@ header .header-bottom .right-side .dropdown > a > i {
     background: var(--background-main);
 }
 
-.product-wrap .product-links a.active {
-    color: var(--active-color);
-}
 
 .product-wrap .product-content {
     left: 25px;

@@ -1,3 +1,15 @@
+call_noti = function (msg, type, time, position) {
+	if (typeof time === 'undefined' || isNaN(time))
+		time = 3000;
+	toastr.options.timeOut = time;
+	toastr.options.extendedTimeOut = time;
+	if (position)
+		toastr.options.positionClass = position;
+	else if ($(window).width() < 765)
+		toastr.options.positionClass = "toast-bottom-full-width";
+	toastr[type](msg);
+};
+
 $(document).ready(function () {
 	$('#banner .slider').slick({
 		autoplay: false,
@@ -9,7 +21,6 @@ $(document).ready(function () {
 		prevArrow: '<div class="slick-nav prev-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
 		nextArrow: '<div class="slick-nav next-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
 	}).slickAnimation();
-	
 	
 	$('#banner .slick-nav').on('click touch', function (e) {
 		e.preventDefault();
@@ -171,5 +182,32 @@ $(document).ready(function () {
 				spaceBetween: 15,
 			},
 		}
+	});
+	
+	//	Thêm giỏ hàng
+	$('.addCart').click(function (e) {
+		e.preventDefault();
+		let amount = $('#numberCart');
+		if ($(this).hasClass('acitve')) {
+			$(this).removeClass('acitve');
+			amount.text(parseInt(amount.text()) - 1);
+		} else {
+			$(this).addClass('acitve');
+			amount.text(parseInt(amount.text()) + 1);
+		}
+		
+		call_noti("Cập nhật giỏ hàng thành công", 'success', 2000);
+	});
+	
+	//	Yêu thích
+	$('.addFavourite').click(function (e) {
+		e.preventDefault();
+		if ($(this).hasClass('acitve')) {
+			$(this).removeClass('acitve');
+		} else {
+			$(this).addClass('acitve');
+		}
+		
+		call_noti("Cập nhật yêu thích thành công", 'success', 2000);
 	});
 })
