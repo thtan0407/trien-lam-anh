@@ -1,4 +1,5 @@
-call_noti = function (msg, type, time, position) {
+// Function thông báo
+var call_noti = function (message, type, time, position) {
 	if (typeof time === 'undefined' || isNaN(time))
 		time = 3000;
 	toastr.options.timeOut = time;
@@ -21,7 +22,6 @@ $(document).ready(function () {
 		prevArrow: '<div class="slick-nav prev-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
 		nextArrow: '<div class="slick-nav next-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
 	}).slickAnimation();
-	
 	$('#banner .slick-nav').on('click touch', function (e) {
 		e.preventDefault();
 		var arrow = $(this);
@@ -58,33 +58,6 @@ $(document).ready(function () {
 		}
 	});
 	
-	/*
-	var newspapers = new Swiper('#newspapers', {
-		slidesPerView: 3,
-		navigation: {
-			nextEl: '.intro .bottom .swiper-button-next',
-			prevEl: '.intro .bottom .swiper-button-prev',
-		},
-		autoplay: {
-			delay: 10000,
-			disableOnInteraction: false,
-		},
-		breakpoints: {
-			320: {
-				slidesPerView: 1,
-			},
-			768: {
-				slidesPerView: 2,
-				spaceBetween: 30,
-			},
-			1024: {
-				slidesPerView: 3,
-				spaceBetween: 30,
-			},
-		}
-	});
-	 */
-	
 	var activities = new Swiper('#activities', {
 		slidesPerView: 3,
 		navigation: {
@@ -109,7 +82,6 @@ $(document).ready(function () {
 			},
 		}
 	});
-	
 	var award = new Swiper('#award', {
 		slidesPerView: 3,
 		navigation: {
@@ -134,7 +106,6 @@ $(document).ready(function () {
 			},
 		}
 	});
-	
 	var newspapers = new Swiper('#newspapers', {
 		slidesPerView: 3,
 		navigation: {
