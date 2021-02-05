@@ -22,7 +22,7 @@ $(document).ready(function () {
 		}
 	});
 	
-	var articleNewspapers = new Swiper('#article-newspapers', {
+	var newspapers = new Swiper('#newspapers', {
 		slidesPerView: 3,
 		navigation: {
 			nextEl: '.intro .bottom .swiper-button-next',
@@ -46,11 +46,13 @@ $(document).ready(function () {
 			},
 		}
 	});
-	var activities = new Swiper('#activities', {
+	
+	/*
+	var newspapers = new Swiper('#newspapers', {
 		slidesPerView: 3,
 		navigation: {
-			nextEl: '.activities .swiper-button-next',
-			prevEl: '.activities .swiper-button-prev',
+			nextEl: '.intro .bottom .swiper-button-next',
+			prevEl: '.intro .bottom .swiper-button-prev',
 		},
 		autoplay: {
 			delay: 10000,
@@ -70,6 +72,33 @@ $(document).ready(function () {
 			},
 		}
 	});
+	 */
+	
+	var activities = new Swiper('#activities', {
+		slidesPerView: 3,
+		navigation: {
+			nextEl: '.activities .swiper-button-next',
+			prevEl: '.activities .swiper-button-prev',
+		},
+		autoplay: {
+			delay: 10000,
+			disableOnInteraction: false,
+		},
+		breakpoints: {
+			320: {
+				slidesPerView: 1,
+			},
+			768: {
+				slidesPerView: 2,
+				spaceBetween: 15,
+			},
+			1024: {
+				slidesPerView: 2,
+				spaceBetween: 15,
+			},
+		}
+	});
+	
 	var award = new Swiper('#award', {
 		slidesPerView: 3,
 		navigation: {
@@ -86,11 +115,60 @@ $(document).ready(function () {
 			},
 			768: {
 				slidesPerView: 2,
-				spaceBetween: 30,
+				spaceBetween: 15,
 			},
 			1024: {
-				slidesPerView: 3,
-				spaceBetween: 30,
+				slidesPerView: 2,
+				spaceBetween: 15,
+			},
+		}
+	});
+	
+	var newspapers = new Swiper('#newspapers', {
+		slidesPerView: 3,
+		navigation: {
+			nextEl: '.newspapers .swiper-button-next',
+			prevEl: '.newspapers .swiper-button-prev',
+		},
+		autoplay: {
+			delay: 10000,
+			disableOnInteraction: false,
+		},
+		breakpoints: {
+			320: {
+				slidesPerView: 1,
+			},
+			768: {
+				slidesPerView: 2,
+				spaceBetween: 15,
+			},
+			1024: {
+				slidesPerView: 2,
+				spaceBetween: 15,
+			},
+		}
+	});
+	var story = new Swiper('#story', {
+		slidesPerView: 3,
+		navigation: {
+			nextEl: '.story .swiper-button-next',
+			prevEl: '.story .swiper-button-prev',
+		},
+		autoplay: {
+			delay: 10000,
+			disableOnInteraction: false,
+		},
+		breakpoints: {
+			320: {
+				slidesPerView: 1,
+			},
+			768: {
+				slidesPerView: 2,
+				spaceBetween: 15,
+			},
+			1024: {
+				slidesPerView: 2,
+				spaceBetween: 15,
 			},
 		}
 	});
