@@ -218,4 +218,9 @@ $(document).ready(function () {
 		
 		call_noti("Cập nhật yêu thích thành công", 'success', 2000);
 	});
+	
+	//  Hiệu ứng input form
+	$('.input-effect').blur(function () {
+		$(this).val() != '' ? $(this).addClass('valid') : $(this).removeClass('valid');
+	});
 })
