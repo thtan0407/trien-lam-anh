@@ -1,5 +1,5 @@
 // Function thông báo
-var call_noti = function (message, type, time, position) {
+var call_noti = function (msg, type, time, position) {
 	if (typeof time === 'undefined' || isNaN(time))
 		time = 3000;
 	toastr.options.timeOut = time;
@@ -153,6 +153,43 @@ $(document).ready(function () {
 				spaceBetween: 15,
 			},
 		}
+	});
+	
+	var best = new Swiper('#product-best', {
+		slidesPerView: 3,
+		navigation: {
+			nextEl: '.single-product--best .swiper-button-next',
+			prevEl: '.single-product--best .swiper-button-prev',
+		},
+		autoplay: {
+			delay: 10000,
+			disableOnInteraction: false,
+		},
+		breakpoints: {
+			320: {
+				slidesPerView: 1,
+			},
+			768: {
+				slidesPerView: 2,
+				spaceBetween: 15,
+			},
+			1024: {
+				slidesPerView: 5,
+				spaceBetween: 10,
+			},
+		}
+	});
+	
+	var favourite = new Swiper('#swiper-favourite', {
+		slidesPerView: 1,
+		navigation: {
+			nextEl: '.sidebar-favourite .swiper-button-next',
+			prevEl: '.sidebar-favourite .swiper-button-prev',
+		},
+		autoplay: {
+			delay: 10000,
+			disableOnInteraction: false,
+		},
 	});
 	
 	//	Thêm giỏ hàng
