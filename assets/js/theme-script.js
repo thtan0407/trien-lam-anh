@@ -223,4 +223,13 @@ $(document).ready(function () {
 	$('.input-effect').blur(function () {
 		$(this).val() != '' ? $(this).addClass('valid') : $(this).removeClass('valid');
 	});
+	
+	$('.modal-theme').on('hide.bs.modal', function () {
+		$('#tabResgister').removeClass('show active');
+		$('#tabLogin').addClass('show active');
+	});
+	
+	$('.modal-theme [data-toggle=tab]').click(function (e) {
+		$('.modal-theme [data-toggle=tab]').removeClass('active');
+	})
 })
