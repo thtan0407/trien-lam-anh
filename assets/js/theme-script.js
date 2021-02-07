@@ -196,11 +196,11 @@ $(document).ready(function () {
 	$('.addCart').click(function (e) {
 		e.preventDefault();
 		let amount = $('#numberCart');
-		if ($(this).hasClass('acitve')) {
-			$(this).removeClass('acitve');
+		if ($(this).hasClass('active')) {
+			$(this).removeClass('active');
 			amount.text(parseInt(amount.text()) - 1);
 		} else {
-			$(this).addClass('acitve');
+			$(this).addClass('active');
 			amount.text(parseInt(amount.text()) + 1);
 		}
 		
@@ -210,10 +210,10 @@ $(document).ready(function () {
 	//	Yêu thích
 	$('.addFavourite').click(function (e) {
 		e.preventDefault();
-		if ($(this).hasClass('acitve')) {
-			$(this).removeClass('acitve');
+		if ($(this).hasClass('active')) {
+			$(this).removeClass('active');
 		} else {
-			$(this).addClass('acitve');
+			$(this).addClass('active');
 		}
 		
 		call_noti("Cập nhật yêu thích thành công", 'success', 2000);
@@ -223,6 +223,9 @@ $(document).ready(function () {
 	$('.input-effect').blur(function () {
 		$(this).val() != '' ? $(this).addClass('valid') : $(this).removeClass('valid');
 	});
+	if ($('.input-effect option:selected')) {
+		$('.input-effect option:selected').parent().addClass('valid')
+	}
 	
 	$('.modal-theme').on('hide.bs.modal', function () {
 		$('#tabResgister').removeClass('show active');

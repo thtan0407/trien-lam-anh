@@ -299,66 +299,164 @@
 					<a class="breadcrumb-item" href="#">
 						<i class="far fa-home"></i>Trang chủ
 					</a>
-					<span class="breadcrumb-item active">Liên hệ</span>
+					<span class="breadcrumb-item active">Chi tiết tác phẩm</span>
 				</nav>
 			</div>
-			<section class="contact">
+			<div class="checkout">
 				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="heading">
-								<div class="title">
-									Liên hệ với tôi
+					<div class="checkout-list">
+						<div class="checkout-inner checkout-header">
+							<div class="checkout--product">
+								Tên sản phẩm
+							</div>
+							<div class="checkout--unitprice">
+								Đơn giá
+							</div>
+							<div class="checkout--quantity">
+								Số lượng
+							</div>
+							<div class="checkout--totalprice">
+								Số tiền
+							</div>
+							<div class="checkout--actions">
+								Thao tác
+							</div>
+						</div>
+						<div class="checkout-main">
+							<div class="checkout-item" id="itemKey0">
+								<div class="checkout-item-content">
+									<div class="checkout-item--product">
+										<a title="Nude"
+										   href="chi-tiet-tac-pham.html">
+											<div class="checkout-item--thumb"
+											     style="background-image: url('./assets/images/product/1.jpg')"></div>
+										</a>
+										<div class="checkout-item--title">
+											<a title="Nude"
+											   href="chi-tiet-tac-pham.html">
+												Tác phẩm: Nude </a>
+										</div>
+									</div>
+									<div class="checkout-item--unitprice">
+										<span>$ 2.100</span>
+									</div>
+									<div class="checkout-item--quantity">
+										1
+									</div>
+									<div class="checkout-item--totalprice">
+										<span>$ 2.100</span>
+									</div>
+									<div class="checkout-item--actions">
+										<button data-key="0" class="delete-Product">
+											Xóa
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="checkout-item" id="itemKey1">
+								<div class="checkout-item-content">
+									<div class="checkout-item--product">
+										<a title="Nude"
+										   href="chi-tiet-tac-pham.html">
+											<div class="checkout-item--thumb"
+											     style="background-image: url('./assets/images/product/1.jpg')"></div>
+										</a>
+										<div class="checkout-item--title">
+											<a title="Nude"
+											   href="chi-tiet-tac-pham.html">
+												Tác phẩm: Nude </a>
+										</div>
+									</div>
+									<div class="checkout-item--unitprice">
+										<span>$ 2.100</span>
+									</div>
+									<div class="checkout-item--quantity">
+										1
+									</div>
+									<div class="checkout-item--totalprice">
+										<span>$ 2.100</span>
+									</div>
+									<div class="checkout-item--actions">
+										<button data-key="1" class="delete-Product">
+											Xóa
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="checkout-item" id="itemKey2">
+								<div class="checkout-item-content">
+									<div class="checkout-item--product">
+										<a title="Nude"
+										   href="chi-tiet-tac-pham.html">
+											<div class="checkout-item--thumb"
+											     style="background-image: url('./assets/images/product/1.jpg')"></div>
+										</a>
+										<div class="checkout-item--title">
+											<a title="Nude"
+											   href="chi-tiet-tac-pham.html">
+												Tác phẩm: Nude </a>
+										</div>
+									</div>
+									<div class="checkout-item--unitprice">
+										<span>$ 2.100</span>
+									</div>
+									<div class="checkout-item--quantity">
+										1
+									</div>
+									<div class="checkout-item--totalprice">
+										<span>$ 2.100</span>
+									</div>
+									<div class="checkout-item--actions">
+										<button data-key="2" class="delete-Product">
+											Xóa
+										</button>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-8 col-lg-7">
-							<div class="form-effect">
-								<form action="">
-									<div class="group-effect">
-										<input type="text" tabindex="1" name="" id="fullname" class="input-effect"
-										       autocomplete="off" required="">
-										<label class="label-effect" for="fullname">
-											<i class="fas fa-user"></i>
-											<span>Họ & tên</span>
-										</label>
-									</div>
-									<div class="group-effect">
-										<input type="email" tabindex="2" name="" id="email" class="input-effect"
-										       autocomplete="off" required="">
-										<label class="label-effect" for="email">
-											<i class="fas fa-envelope"></i>
-											<span>Email</span>
-										</label>
-									</div>
-									<div class="group-effect">
-										<input type="tel" tabindex="3" name="" id="phone" class="input-effect"
-										       autocomplete="off" required="">
-										<label class="label-effect" for="phone">
-											<i class="fas fa-phone-alt"></i>
-											<span>Số điện thoại</span>
-										</label>
-									</div>
-									<div class="group-effect group-textarea">
-										<textarea name="" id="message" class="input-effect"
-										          autocomplete="off"></textarea>
-										<label class="label-effect" for="message">
-											<i class="fas fa-comment-dots"></i>
-											<span>Tin nhắn</span>
-										</label>
-									</div>
-									<div class="form-button">
-										<button type="submit" class="btn btn-primary">Gửi liên hệ</button>
-									</div>
-								</form>
+						<div class="checkout-footer">
+							<div class="checkout-back">
+								<a href="javascript: history.go(-1)">
+									<i class="fal fa-long-arrow-left"></i>Trở về
+								</a>
+							</div>
+							<div class="checkout-total">
+								<p>Tổng tiền tác phẩm<span>( <span class="soluongCheckout">3</span> Tác phẩm)</span>:
+								</p>
+								<span id="totalCheckout">$ 4.000</sup></span>
+							</div>
+							<div class="checkout-next">
+								<a href="thanh-toan.html">
+									Tiến hành đặt hàng </a>
 							</div>
 						</div>
-						<div class="col-md-4 col-lg-5">
-							<img src="./assets/images/contact.jpg" class="img-fluid">
+					</div>
+					
+					<!-- Giỏ hàng trống -->
+					<div class="checkout-empty">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="checkout-empty-main">
+									<div class="checkout-empty-icon">
+										<i class="fas fa-shopping-bag"></i>
+									</div>
+									<div class="checkout-empty-title">
+										Giỏ hàng của bạn hiện đang trống
+									</div>
+									<div class="checkout-empty-desc">
+										Nếu bạn có bất kì thắc mắc gì, vui lòng liên hệ với chúng tôi theo địa chỉ mail
+										<a href="mailto:thtan0407@gmail.com">
+											mailto:thtan0407@gmail.com </a>
+									</div>
+									<div class="checkout-empty-actions">
+										<a href="index.html">Mua tác phẩm</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
 		</div>
 		<footer class="footer">
 			<div class="top">
