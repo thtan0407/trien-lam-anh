@@ -212,7 +212,6 @@ textarea:focus {
 
 header {
     position: relative;
-    z-index: 9999;
     font-size: 14px;
 }
 
@@ -3698,7 +3697,9 @@ header .header-bottom .left-side .hamburger {
 
 /* Responsive */
 @media screen and (max-width: 991px) {
-
+    header {
+        z-index: 1022;
+    }
     header .header-top .left-side {
         display: none;
     }
