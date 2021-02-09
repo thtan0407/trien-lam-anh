@@ -219,7 +219,14 @@ header .header-bottom .header-bottom--navigation > ul > li:hover:before {
 .inner .left-side .side-inner {
     border: 1px solid #e5e5e5;
     padding: 15px;
-    background: #fbfbfb;
+    background: #F5F6F7;
+}
+.inner .left-side .side-inner .side-box .swiper-container {
+    padding-bottom: 50px;
+}
+
+.inner .left-side .side-inner .side-box .swiper-wrapper {
+    height: unset;
 }
 
 .inner .left-side .side-inner .side-box ul {

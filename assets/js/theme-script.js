@@ -12,4 +12,15 @@ var call_noti = function (msg, type, time, position) {
 };
 
 $(document).ready(function () {
+	let favourite = new Swiper('#swiper-newspaper', {
+		slidesPerView: 1,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		autoplay: {
+			delay: 10000,
+			disableOnInteraction: false,
+		},
+	});
 })

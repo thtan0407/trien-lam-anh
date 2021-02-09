@@ -2,68 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15798e49-8077-48e3-b23e-87fee9ce3775" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trien-lam-anh.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/background-footer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/contact.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/flag/english.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/flag/japan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/flag/vietnam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/gioi-thieu/ve-tac-gia-lam-thanh-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/gioi-thieu/ve-tac-gia-lam-thanh-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/gioi-thieu/ve-tac-gia-lam-thanh-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/gioi-thieu/ve-tac-gia-lam-thanh-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/8.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/theme-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slick-animation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slick.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slider-content.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/swiper/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/swiper/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/toastr/toastr.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/toastr/toastr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugin/wow/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chi-tiet-bai-viet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chi-tiet-tac-pham.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/danh-muc-bai-viet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/danh-muc-tac-pham.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gio-hang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gioi-thieu.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lien-he.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tai-khoan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thanh-toan.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +28,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trien-lam-anh" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Source-aHung\school-jvca\assets\plugin" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612872486607</updated>
-      <workItem from="1612872489542" duration="4647000" />
+      <workItem from="1612872489542" duration="5808000" />
     </task>
     <servers />
   </component>
