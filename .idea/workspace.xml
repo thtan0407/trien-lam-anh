@@ -1,10 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3174099d-3b1b-4cd6-9949-fa299539862e" name="Default Changelist" comment="">
+    <list default="true" id="15798e49-8077-48e3-b23e-87fee9ce3775" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trien-lam-anh.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/background-footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/lang-nghe-viet-nam-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flag/english.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flag/japan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flag/vietnam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gioi-thieu/ve-tac-gia-lam-thanh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gioi-thieu/ve-tac-gia-lam-thanh-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gioi-thieu/ve-tac-gia-lam-thanh-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gioi-thieu/ve-tac-gia-lam-thanh-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/theme-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slick-animation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slick.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/slick/slider-content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/swiper/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/swiper/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/toastr/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/toastr/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugin/wow/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi-tiet-bai-viet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi-tiet-tac-pham.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/danh-muc-bai-viet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/danh-muc-tac-pham.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gio-hang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gioi-thieu.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lien-he.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tai-khoan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thanh-toan.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +76,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1nxaAsav8v8IfOU4vRTwgsQPd2w" />
+  <component name="ProjectId" id="1oFBVviooBdH6ttwo6pHMYX5LQt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
@@ -31,36 +89,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Source-aHung\trien-lam-anh" />
-      <recent name="F:\Source-aHung\trien-lam-anh\assets\plugin\toastr" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3174099d-3b1b-4cd6-9949-fa299539862e" name="Default Changelist" comment="" />
-      <created>1612334069874</created>
+      <changelist id="15798e49-8077-48e3-b23e-87fee9ce3775" name="Default Changelist" comment="" />
+      <created>1612872486607</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612334069874</updated>
-      <workItem from="1612334073399" duration="564000" />
-      <workItem from="1612343730345" duration="166000" />
-      <workItem from="1612343899185" duration="4009000" />
-      <workItem from="1612401143998" duration="726000" />
-      <workItem from="1612411256203" duration="1142000" />
-      <workItem from="1612429871310" duration="1796000" />
-      <workItem from="1612492931444" duration="7456000" />
-      <workItem from="1612506852905" duration="12428000" />
-      <workItem from="1612527920855" duration="8626000" />
-      <workItem from="1612574077791" duration="6568000" />
-      <workItem from="1612616471377" duration="20000" />
-      <workItem from="1612625072875" duration="4186000" />
-      <workItem from="1612667385170" duration="54000" />
-      <workItem from="1612690767550" duration="10470000" />
-      <workItem from="1612782621769" duration="6982000" />
-      <workItem from="1612854186385" duration="95000" />
+      <updated>1612872486607</updated>
+      <workItem from="1612872489542" duration="4647000" />
     </task>
     <servers />
   </component>
