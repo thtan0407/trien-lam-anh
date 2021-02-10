@@ -3272,15 +3272,6 @@ header .header-bottom {
 
 header .header-bottom .header-bottom--navigation {
     position: relative;
-<<<<<<< HEAD
-=======
-    z-index: 9999;
-    font-size: 14px;
-}
-
-header .header-top {
-    background: var(--background-main);
->>>>>>> parent of f74eec3 (Fix Z-index header & modal)
 }
 
 header .header-bottom .header-bottom--navigation > ul {
@@ -3365,17 +3356,16 @@ header .header-bottom .header-bottom--navigation > ul > li:hover:before {
     padding: 5px 15px 3px;
 }
 
-.inner .side-inner {
+.inner .left-side .side-inner {
     border: 1px solid #e5e5e5;
     padding: 15px;
     background: #F5F6F7;
 }
-
-.inner .side-inner .side-box .swiper-container {
+.inner .left-side .side-inner .side-box .swiper-container {
     padding-bottom: 50px;
 }
 
-.inner .side-inner .side-box .swiper-wrapper {
+.inner .left-side .side-inner .side-box .swiper-wrapper {
     height: unset;
 }
 
@@ -3415,6 +3405,7 @@ header .header-bottom .header-bottom--navigation > ul > li:hover:before {
 
 .inner .side-inner + .side-inner {
     margin-top: 30px;
+<<<<<<< HEAD
 }
 
 .inner .middle-side {
@@ -4039,3 +4030,6 @@ header .header-bottom .header-bottom--navigation > ul > li:hover:before {
 =======
 /* End payment */
 >>>>>>> parent of 9350943 (Xong)
+=======
+}
+>>>>>>> parent of 71145b0 (Change)

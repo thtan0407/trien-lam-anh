@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/theme-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme-script.js" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/chi-tiet-bai-viet.html" beforeDir="false" afterPath="$PROJECT_DIR$/chi-tiet-bai-viet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chi-tiet-tac-pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/chi-tiet-tac-pham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/danh-muc-bai-viet.html" beforeDir="false" afterPath="$PROJECT_DIR$/danh-muc-bai-viet.html" afterDir="false" />
@@ -28,6 +29,9 @@
       <change beforePath="$PROJECT_DIR$/tai-khoan.html" beforeDir="false" afterPath="$PROJECT_DIR$/tai-khoan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thanh-toan.html" beforeDir="false" afterPath="$PROJECT_DIR$/thanh-toan.html" afterDir="false" />
 >>>>>>> parent of f74eec3 (Fix Z-index header & modal)
+=======
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+>>>>>>> parent of 71145b0 (Change)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../table-banking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trien-lam-anh" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -65,8 +69,8 @@
       <created>1612872486607</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
       <updated>1612872486607</updated>
+<<<<<<< HEAD
       <workItem from="1612872489542" duration="5889000" />
       <workItem from="1612943094082" duration="1106000" />
 =======
@@ -97,6 +101,9 @@
 >>>>>>> parent of 9350943 (Xong)
 =======
 >>>>>>> parent of f74eec3 (Fix Z-index header & modal)
+=======
+      <workItem from="1612872489542" duration="5808000" />
+>>>>>>> parent of 71145b0 (Change)
     </task>
     <servers />
   </component>
