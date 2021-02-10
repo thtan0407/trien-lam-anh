@@ -25,65 +25,19 @@
 	<meta name="twitter:image" content="">
 	<meta name="twitter:creator" content="">
 	
-	<title>JVCA - School</title>
+	<title>Triển lãm tranh ảnh</title>
 	
 	<link rel="stylesheet" href="./assets/plugin/bootstrap/css/bootstrap.min.css">
-<<<<<<< HEAD
-	<link rel="stylesheet" href="./assets/plugin/fancybox/jquery.fancybox.min.css">
-	<link rel="stylesheet" href="./assets/plugin/swiper/swiper.min.css">
-=======
 	<link rel="stylesheet" href="./assets/plugin/slick/slick.min.css">
 	<link rel="stylesheet" href="./assets/plugin/swiper/swiper.min.css">
 	<link rel="stylesheet" href="./assets/plugin/fancybox/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="./assets/plugin/animate.min.css">
 	<link rel="stylesheet" href="./assets/plugin/toastr/toastr.min.css">
->>>>>>> parent of 9350943 (Xong)
 	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="./assets/css/helper.css">
 	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-<<<<<<< HEAD
-
-<div class="page">
-	<header class="header">
-		<div class="header-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="header-top--logo">
-							<a href="index.html">
-								<img src="./assets/images/logo.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="header-top--contact">
-							<ul class="list-unstyled mb-0">
-								<li>
-									<a href="tel:0721255335">
-										<span class="icon">
-											<i class="fas fa-phone-rotary"></i>
-										</span>
-										<span class="text">
-											<strong>Phone:</strong>
-											0721-25-5335
-										</span>
-									</a>
-								</li>
-								<li>
-									<a href="mailto:info@jvca-osaka.jp">
-										<span class="icon">
-											<i class="fas fa-envelope-open-text"></i>
-										</span>
-										<span class="text">
-											<strong>Email:</strong>
-											info@jvca-osaka.jp
-										</span>
-									</a>
-								</li>
-							</ul>
-=======
 <div class="container">
 	<div class="page">
 		<header class="header">
@@ -222,62 +176,16 @@
 									</form>
 								</div>
 							</div>
->>>>>>> parent of 9350943 (Xong)
 						</div>
 					</div>
 				</div>
 			</div>
-<<<<<<< HEAD
-		</div>
-		<div class="header-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="header-bottom--navigation">
-							<ul>
-								<li>
-									<a href="aboutus.html">
-										学校紹介
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										入学案内
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										学費・奨学金
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										カリキュラム
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										生活・寮
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										進学先
-									</a>
-								</li>
-								<li>
-									<a href="contact.html">
-										アクセス
-									</a>
-								</li>
-							</ul>
-=======
 			<div class="header-bottom">
 				<div class="container">
 					<div class="row row-5">
 						<div class="col-lg-10">
 							<div class="left-side">
-								<ul>
+								<ul id="hasMenu">
 									<li>
 										<a href="danh-muc-tac-pham.html">
 											Tác phẩm
@@ -345,6 +253,9 @@
 						</div>
 						<div class="col-lg-2">
 							<div class="right-side">
+								<div class="hamburger" id="hamburger">
+									<span></span>
+								</div>
 								<div class="dropdown">
 									<a href="gio-hang.html">
 										<i class="fas fa-shopping-bag"></i>
@@ -356,6 +267,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="header-overlay"></div>
 		</header>
 		<div class="main">
 			<section id="banner" class="banner">
@@ -406,13 +318,12 @@
 						</div>
 					</div>
 					<div class="row no-gutters">
-						<div class="col-lg-3 col-md-6 col-12">
+						<div class="col-lg-3 col-md-6 col-6">
 							<div class="product-wrap">
-								<div class="product-overlay"></div>
-								<div class="product-image"
-								     style="background-image: url('./assets/images/product/1.jpg')"></div>
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
 								<div class="product-links">
-									<button disabled class="addCart btn-effect" type="button">
+									<button class="addCart btn-effect" type="button">
 										<span class="decor"><span></span></span>
 										<i class="fas fa-shopping-bag"></i>
 									</button>
@@ -440,9 +351,8 @@
 						</div>
 						<div class="col-lg-3 col-md-3 col-6">
 							<div class="product-wrap">
-								<div class="product-overlay"></div>
-								<div class="product-image"
-								     style="background-image: url('./assets/images/product/2.jpg')"></div>
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
 								<div class="product-links">
 									<button class="addCart btn-effect" type="button">
 										<span class="decor"><span></span></span>
@@ -472,9 +382,8 @@
 						</div>
 						<div class="col-lg-3 col-md-3 col-6">
 							<div class="product-wrap">
-								<div class="product-overlay"></div>
-								<div class="product-image"
-								     style="background-image: url('./assets/images/product/3.jpg')"></div>
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
 								<div class="product-links">
 									<button class="addCart btn-effect" type="button">
 										<span class="decor"><span></span></span>
@@ -504,9 +413,8 @@
 						</div>
 						<div class="col-lg-3 col-md-6 col-6">
 							<div class="product-wrap">
-								<div class="product-overlay"></div>
-								<div class="product-image"
-								     style="background-image: url('./assets/images/product/4.jpg')"></div>
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
 								<div class="product-links">
 									<button class="addCart btn-effect" type="button">
 										<span class="decor"><span></span></span>
@@ -534,201 +442,373 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12">
-							<div class="row no-gutters h-100">
-								<div class="col-lg-7">
-									<div class="row no-gutters">
-										<div class="col-lg-4 col-md-3 col-6">
-											<div class="product-wrap">
-												<div class="product-overlay"></div>
-												<div class="product-image"
-												     style="background-image: url('./assets/images/product/2.jpg')"></div>
-												<div class="product-links">
-													<a class="addCart btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-shopping-bag"></i>
-													</a>
-													<a class="addFavourite btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-heart"></i>
-													</a>
-												</div>
-												<div class="product-content">
-													<div class="category">
-														<a href="danh-muc-tac-pham.html">
-															Nude
-														</a>
-													</div>
-													<div class="title">
-														<a href="chi-tiet-tac-pham.html">
-															Diễm Xưa
-														</a>
-														<div class="price">
-															$ 5.000
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 col-md-3 col-6">
-											<div class="product-wrap">
-												<div class="product-overlay"></div>
-												<div class="product-image"
-												     style="background-image: url('./assets/images/product/7.jpg')"></div>
-												<div class="product-links">
-													<a class="addCart btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-shopping-bag"></i>
-													</a>
-													<a class="addFavourite btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-heart"></i>
-													</a>
-												</div>
-												<div class="product-content">
-													<div class="category">
-														<a href="danh-muc-tac-pham.html">
-															Nude
-														</a>
-													</div>
-													<div class="title">
-														<a href="chi-tiet-tac-pham.html">
-															Phong Lữ
-														</a>
-														<div class="price">
-															$ 5.000
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 col-md-6 col-6">
-											<div class="product-wrap">
-												<div class="product-overlay"></div>
-												<div class="product-image"
-												     style="background-image: url('./assets/images/product/4.jpg')"></div>
-												<div class="product-links">
-													<a class="addCart btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-shopping-bag"></i>
-													</a>
-													<a class="addFavourite btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-heart"></i>
-													</a>
-												</div>
-												<div class="product-content">
-													<div class="category">
-														<a href="danh-muc-tac-pham.html">
-															Chân Dung
-														</a>
-													</div>
-													<div class="title">
-														<a href="chi-tiet-tac-pham.html">
-															Ngọc Mai
-														</a>
-														<div class="price">
-															$ 5.000
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 col-md-3 col-6">
-											<div class="product-wrap">
-												<div class="product-overlay"></div>
-												<div class="product-image"
-												     style="background-image: url('./assets/images/product/2.jpg')"></div>
-												<div class="product-links">
-													<a class="addCart btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-shopping-bag"></i>
-													</a>
-													<a class="addFavourite btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-heart"></i>
-													</a>
-												</div>
-												<div class="product-content">
-													<div class="category">
-														<a href="danh-muc-tac-pham.html">
-															Nude
-														</a>
-													</div>
-													<div class="title">
-														<a href="chi-tiet-tac-pham.html">
-															Diễm Xưa
-														</a>
-														<div class="price">
-															$ 5.000
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-8 col-md-6 col-6 vertical-image">
-											<div class="product-wrap">
-												<div class="product-overlay"></div>
-												<div class="product-image"
-												     style="background-image: url('./assets/images/product/6.jpg')"></div>
-												<div class="product-links">
-													<a class="addCart btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-shopping-bag"></i>
-													</a>
-													<a class="addFavourite btn-effect" href="javascript:void(0)">
-														<span class="decor"><span></span></span>
-														<i class="fas fa-heart"></i>
-													</a>
-												</div>
-												<div class="product-content">
-													<div class="category">
-														<a href="danh-muc-tac-pham.html">
-															Tranh Sơn Mài
-														</a>
-													</div>
-													<div class="title">
-														<a href="chi-tiet-tac-pham.html">
-															MỘT MÌNH
-														</a>
-														<div class="price">
-															$ 5.000
-														</div>
-													</div>
-												</div>
-											</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-5 col-md-6 col-12 big-image">
-									<div class="product-wrap">
-										<div class="product-overlay"></div>
-										<div class="product-image"
-										     style="background-image: url('./assets/images/product/1.jpg')"></div>
-										<div class="product-links">
-											<a class="addCart btn-effect" href="javascript:void(0)">
-												<span class="decor"><span></span></span>
-												<i class="fas fa-shopping-bag"></i>
-											</a>
-											<a class="addFavourite btn-effect" href="javascript:void(0)">
-												<span class="decor"><span></span></span>
-												<i class="fas fa-heart"></i>
-											</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
 										</div>
-										<div class="product-content">
-											<div class="category">
-												<a href="danh-muc-tac-pham.html">
-													Tranh Sơn Mài
-												</a>
-											</div>
-											<div class="title">
-												<a href="chi-tiet-tac-pham.html">
-													Nude
-												</a>
-												<div class="price">
-													$ 5.000
-												</div>
-											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
 										</div>
 									</div>
 								</div>
@@ -737,269 +817,1121 @@
 					</div>
 				</div>
 			</section>
-			<section class="intro">
+			<section class="products">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-5">
-							<div class="left-side">
-								<div class="inner">
-									<img src="./assets/images/avatar.jpg" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="right-side">
-								<div class="inner">
-									<div class="sub-title">
-										Hoạ sĩ
-									</div>
-									<div class="heading-title">
-										Lâm Thanh
-									</div>
-									<div class="description">
-										<ul>
-											<li>
-												Sinh ngày: 6 - 1 - 1963
-											</li>
-											<li>
-												Nơi sinh: Hà nội.
-											</li>
-											<li>
-												Sống và làm việc tại TP. HCM.
-											</li>
-											<li>
-												Tốt nghiệp Đại học Mỹ thuật Hà Nội năm 1985 (Tốt nghiệp Thủ khoa Lụa)
-											</li>
-											<li>
-												Hội viên Hội Mỹ thuật Việt nam.
-											</li>
-											<li>
-												Hội viên Hội Mỹ thuật TP. HCM.
-											</li>
-											<li>
-												Tham gia nhiều Triển lãm Mỹ thuật trong nước và quốc tế.
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
 						<div class="col-lg-12">
-							<div class="text-center">
-								<a href="gioi-thieu.html" class="btn-theme">
-									Xem chi tiết
-								</a>
+							<div class="heading">
+								<div class="title">
+									Tác phẩm tiêu biểu 1
+								</div>
+								<div class="description">
+									<p>Trang hiện đang có 40 bức tranh lụa đang bày bán và 20 tranh Acrylic trưng
+										bày.</p>
+									<p>Xin mời bạn bấm vào từng tranh để xem thông tin cụ thể về tác phẩm, bạn hãy chọn
+										ra
+										những tác phẩm bạn yêu thích để xem và chia sẻ nhé!
+									</p>
+								</div>
 							</div>
->>>>>>> parent of 9350943 (Xong)
+						</div>
+					</div>
+					<div class="row no-gutters">
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="header-overlay"></div>
-	</header>
-	<div class="main">
-		<div class="banner" style="background-image: url('./assets/images/banner.jpg')">
-			<a href="aboutus.html"></a>
-		</div>
-		<div class="container">
-			<div class="inner">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="left-side">
-							<div class="side-inner">
-								<div class="side-heading">
-									<span>資料請求</span>
+			</section>
+			<section class="products">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="heading">
+								<div class="title">
+									Tác phẩm tiêu biểu 2
 								</div>
-								<div class="side-box">
+								<div class="description">
+									<p>Trang hiện đang có 40 bức tranh lụa đang bày bán và 20 tranh Acrylic trưng
+										bày.</p>
+									<p>Xin mời bạn bấm vào từng tranh để xem thông tin cụ thể về tác phẩm, bạn hãy chọn
+										ra
+										những tác phẩm bạn yêu thích để xem và chia sẻ nhé!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row no-gutters">
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/1.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect active" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Tranh Sơn Mài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Nude
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/2.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Nude
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Diễm Xưa
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/3.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Áo Dài
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											HOA MẪU ĐƠN
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6">
+							<div class="product-wrap">
+								<a href="chi-tiet-tac-pham.html" class="d-block product-image"
+								   style="background-image: url('./assets/images/product/4.jpg')"></a>
+								<div class="product-links">
+									<button class="addCart btn-effect" type="button">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-shopping-bag"></i>
+									</button>
+									<a class="addFavourite btn-effect" href="javascript:void(0)">
+										<span class="decor"><span></span></span>
+										<i class="fas fa-heart"></i>
+									</a>
+								</div>
+								<div class="product-content">
+									<div class="category">
+										<a href="danh-muc-tac-pham.html">
+											Chân Dung
+										</a>
+									</div>
+									<div class="title">
+										<a href="chi-tiet-tac-pham.html">
+											Ngọc Mai
+										</a>
+										<div class="price">
+											$ 5.000
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="top">
+				<div class="container-fluid px-0">
+					<div class="row no-gutters">
+						<div class="col-lg-6">
+							<div class="footer-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2006905.006167188!2d106.695228!3d10.754792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City%2C%20Vietnam!5e0!3m2!1sen!2sus!4v1612498206210!5m2!1sen!2sus"></iframe>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="footer-inner">
+								<div class="footer-item">
+									<div class="footer-heading">
+										Liên hệ
+									</div>
 									<ul>
 										<li>
-											<a title="File-word.docx" href="javascript:void(0)">
-												<i class="fas fa-file-alt"></i>
-												File-word.docx
-											</a>
+									<span>
+										<i class="far fa-map-marker-alt"></i>
+									</span>
+											<a href="#">Hồ Chí Minh City</a>
 										</li>
 										<li>
-											<a title="File-excel-excel-excel-excel-excel-excel-excel.xlsx"
-											   href="javascript:void(0)">
-												<i class="fas fa-file-alt"></i>
-												File-excel-excel-excel-excel-excel-excel-excel.xlsx
-											</a>
+									<span>
+										<i class="fab fa-facebook-f"></i>
+									</span>
+											<a href="https://facebook.com/hoasi.lamthanh">hoasi.lamthanh</a>
 										</li>
 										<li>
-											<a title="File-pdf.pdf" href="javascript:void(0)">
-												<i class="fas fa-file-alt"></i>
-												File-pdf.pdf
-											</a>
+									<span>
+										<i class="far fa-envelope"></i>
+									</span>
+											<a href="mailto:thtan0407@gmail.com">thtan0407@gmail.com</a>
 										</li>
 										<li>
-											<a title="File-pdf.pdf" href="javascript:void(0)">
-												<i class="fas fa-file-alt"></i>
-												File-pdf.pdf
-											</a>
+									<span>
+										<i class="far fa-phone-alt"></i>
+									</span>
+											<a href="tel:0333851195">0333.851.195</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer-item">
+									<div class="footer-heading">
+										Liên hệ
+									</div>
+									<ul>
+										<li>
+											<a href="index.html">Trang chủ</a>
 										</li>
 										<li>
-											<a title="File-excel-excel-excel.xlsx" href="javascript:void(0)">
-												<i class="fas fa-file-alt"></i>
-												File-excel-excel-excel.xlsx
-											</a>
+											<a href="danh-muc-tac-pham">Tác phẩm</a>
+										</li>
+										<li>
+											<a href="gioi-thieu.html">Giới thiệu tác phẩm</a>
+										</li>
+										<li>
+											<a href="danh-muc-bai-viet.html">Câu chuyện sáng tác</a>
+										</li>
+										<li>
+											<a href="chi-tiet-bai-viet.html">Giải thưởng</a>
+										</li>
+										<li>
+											<a href="danh-muc-bai-viet.html">Báo chí viết về Lâm Thanh</a>
+										</li>
+										<li>
+											<a href="danh-muc-bai-viet.html">Hoạt động</a>
+										</li>
+										<li>
+											<a href="lien-he.html">Liên hệ</a>
 										</li>
 									</ul>
 								</div>
 							</div>
-							<div class="side-inner">
-								<div class="side-heading">
-									<span>ニュース</span>
-								</div>
-								<div class="side-box">
-									<div class="swiper-container" id="swiper-newspaper">
-										<div class="swiper-wrapper">
-											<div class="swiper-slide">
-												<ul>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッ
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッは
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッぼ座出見家ヘレ財治さ
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッぼ座出見家ヘレ財治さわ報無シ閣育みが開位てぜ垂中わうは
-														</a>
-													</li>
-												</ul>
-											</div>
-											<div class="swiper-slide">
-												<ul>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッ
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッは
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッぼ座出見家ヘレ財治さ
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッぼ座出見家ヘレ財治さわ報無シ閣育みが開位てぜ垂中わうは
-														</a>
-													</li>
-												</ul>
-											</div>
-											<div class="swiper-slide">
-												<ul>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッ
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッは
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッぼ座出見家ヘレ財治さ
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッぼ座出見家ヘレ財治さわ報無シ閣育みが開位てぜ垂中わうは
-														</a>
-													</li>
-												</ul>
-											</div>
-											<div class="swiper-slide">
-												<ul>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッ
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッは
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッぼ座出見家ヘレ財治さ
-														</a>
-													</li>
-													<li>
-														<a href="">
-															知めね量展ずね自回く交編ニ郎占チマエ装員ラセ車21万ッぼ座出見家ヘレ財治さわ報無シ閣育みが開位てぜ垂中わうは
-														</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="swiper-pagination"></div>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="middle-side"></div>
-					</div>
-					<div class="col-md-3">
-						<div class="right-side">
-							<div class="side-heading">
-								<span>Fanpage</span>
-							</div>
-							<div class="side-box">
-								<div class="fb-page"
-								     data-href="https://www.facebook.com/JVC-%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC-158587044804998/"
-								     data-tabs="timeline"
-								     data-width="" data-height="" data-small-header="false"
-								     data-adapt-container-width="true" data-hide-cover="false"
-								     data-show-facepile="true">
-									<blockquote
-											cite="https://www.facebook.com/JVC-%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC-158587044804998/"
-											class="fb-xfbml-parse-ignore">
-										<a href="https://www.facebook.com/JVC-%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC-158587044804998/">JVC
-											アカデミー</a></blockquote>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 				</div>
 			</div>
 			<div class="bottom">
@@ -1038,7 +1970,7 @@
 					<div class="modal-body">
 						<form action="" class="form-effect">
 							<div class="group-effect">
-								<input type="email" tabindex="2" name="" id="emailLogin" class="input-effect"
+								<input type="email" tabindex="1" name="" id="emailLogin" class="input-effect"
 								       autocomplete="off" required="">
 								<label class="label-effect" for="emailLogin">
 									<i class="fas fa-envelope"></i>
@@ -1046,7 +1978,7 @@
 								</label>
 							</div>
 							<div class="group-effect">
-								<input type="password" tabindex="1" name="" id="passwordLogin" class="input-effect"
+								<input type="password" tabindex="2" name="" id="passwordLogin" class="input-effect"
 								       autocomplete="off" required="">
 								<label class="label-effect" for="passwordLogin">
 									<i class="fas fa-lock"></i>
@@ -1077,7 +2009,7 @@
 						<form action="" class="form-effect">
 							<h4>Thông tin đăng nhập</h4>
 							<div class="group-effect">
-								<input type="email" tabindex="2" name="" id="emailResgiter" class="input-effect"
+								<input type="email" tabindex="1" name="" id="emailResgiter" class="input-effect"
 								       autocomplete="off" required="">
 								<label class="label-effect" for="emailResgiter">
 									<i class="fas fa-envelope"></i>
@@ -1085,7 +2017,7 @@
 								</label>
 							</div>
 							<div class="group-effect">
-								<input type="password" tabindex="1" name="" id="passwordResgiter" class="input-effect"
+								<input type="password" tabindex="2" name="" id="passwordResgiter" class="input-effect"
 								       autocomplete="off" required="">
 								<label class="label-effect" for="passwordResgiter">
 									<i class="fas fa-lock"></i>
@@ -1093,7 +2025,7 @@
 								</label>
 							</div>
 							<div class="group-effect">
-								<input type="password" tabindex="1" name="" id="repasswordResgiter" class="input-effect"
+								<input type="password" tabindex="3" name="" id="repasswordResgiter" class="input-effect"
 								       autocomplete="off" required="">
 								<label class="label-effect" for="repasswordResgiter">
 									<i class="fas fa-lock"></i>
@@ -1101,9 +2033,9 @@
 								</label>
 							</div>
 							<h4>Thông tin liên hệ</h4>
-							<div class="d-flex justify-content-between align-items-center">
+							<div class="d-md-flex justify-content-between align-items-center">
 								<div class="group-effect">
-									<input type="text" tabindex="1" name="" id="fullnameResgiter" class="input-effect"
+									<input type="text" tabindex="4" name="" id="fullnameResgiter" class="input-effect"
 									       autocomplete="off" required="">
 									<label class="label-effect" for="fullnameResgiter">
 										<i class="fas fa-address-card"></i>
@@ -1111,22 +2043,14 @@
 									</label>
 								</div>
 								<div class="group-effect">
-									<input type="tel" tabindex="3" name="" id="phoneResgiter" class="input-effect"
+									<input type="tel" tabindex="5" name="" id="phoneResgiter" class="input-effect"
 									       autocomplete="off" required="">
 									<label class="label-effect" for="phoneResgiter">
 										<i class="fas fa-phone-alt"></i>
 										<span>Số điện thoại</span>
 									</label>
->>>>>>> parent of f74eec3 (Fix Z-index header & modal)
-=======
->>>>>>> parent of 71145b0 (Change)
-=======
->>>>>>> parent of 71145b0 (Change)
 								</div>
 							</div>
-<<<<<<< HEAD
-						</div>
-=======
 							<div class="group-effect form-group">
 								<label class="label-effect">
 									<i class="fal fa-venus-mars"></i>Giới tính:
@@ -1149,8 +2073,7 @@
 					</div>
 					<div class="modal-footer">
 						Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện theo điều kiện sử dụng và chính sách
-							của chúng tôi.
->>>>>>> parent of 9350943 (Xong)
+						của chúng tôi.
 					</div>
 				</div>
 			</div>
@@ -1158,14 +2081,14 @@
 	</div>
 </div>
 
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0"
-        nonce="AEHcCfan"></script>
 
 <script type="text/javascript" src="./assets/plugin/jquery.min.js"></script>
 <script type="text/javascript" src="./assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="./assets/plugin/fancybox/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/slick/slick-animation.js"></script>
+<script type="text/javascript" src="./assets/plugin/slick/slick.min.js"></script>
 <script type="text/javascript" src="./assets/plugin/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/fancybox/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/toastr/toastr.min.js"></script>
 <script type="text/javascript" src="./assets/js/theme-script.js"></script>
 </body>
 </html>
