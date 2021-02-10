@@ -226,7 +226,11 @@ textarea:focus {
 
 header {
     position: relative;
+<<<<<<< HEAD
     z-index: 999;
+=======
+    z-index: 9999;
+>>>>>>> parent of f74eec3 (Fix Z-index header & modal)
     font-size: 14px;
 }
 
