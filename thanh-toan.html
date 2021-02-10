@@ -1,0 +1,650 @@
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+	
+	<meta itemprop="name" content="">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta property="og:locale" content="">
+	<meta property="og:type" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	
+	<meta name="twitter:card" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:image" content="">
+	<meta name="twitter:creator" content="">
+	
+	<title>Triển lãm tranh ảnh</title>
+	
+	<link rel="stylesheet" href="./assets/plugin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugin/slick/slick.min.css">
+	<link rel="stylesheet" href="./assets/plugin/swiper/swiper.min.css">
+	<link rel="stylesheet" href="./assets/plugin/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="./assets/plugin/animate.min.css">
+	<link rel="stylesheet" href="./assets/plugin/toastr/toastr.min.css">
+	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="./assets/css/helper.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<div class="container">
+	<div class="page">
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="left-side">
+								<div class="inner">
+									<ul>
+										<li>
+											<a href="#">Đặt hàng</a>
+										</li>
+										<li>
+											<a href="#">Thanh toán</a>
+										</li>
+										<li>
+											<a href="#">Vận chuyển</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<div class="right-side">
+								<div class="inner">
+									<ul>
+										<li>
+											<a href="#">
+												<i class="fas fa-heart"></i>
+												Yêu thích
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Đăng nhập / Đăng ký
+											</a>
+										</li>
+										<li>
+											<div class="dropdown">
+												<a href="javascript:void(0)"
+												   class="dropdown-toggle"
+												   id="changeLanguage" data-toggle="dropdown"
+												   aria-expanded="false">
+													<img src="./assets/images/flag/vietnam.png" alt="">
+													Vietnamese
+												</a>
+												<div class="dropdown-menu" aria-labelledby="changeLanguage">
+													<a class="dropdown-item" href="#">
+														<img src="./assets/images/flag/vietnam.png" alt="">
+														Vietnamese
+													</a>
+													<a class="dropdown-item" href="#">
+														<img src="./assets/images/flag/japan.png" alt="">
+														Japanese
+													</a>
+													<a class="dropdown-item" href="#">
+														<img src="./assets/images/flag/english.png" alt="">
+														English
+													</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<ul>
+												<li>
+													<a href="javascript:void(0)">
+														<i class="fab fa-facebook"></i>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">
+														<i class="fab fa-pinterest"></i>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">
+														<i class="fab fa-youtube"></i>
+													</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-middle">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-4">
+							<div class="left-side">
+								<div class="inner">
+									<a href="tel:0333851195">
+										<div class="icon">
+											<i class="far fa-phone-rotary"></i>
+										</div>
+										<div class="text">
+											<b>Phone:</b>
+											<span>0333.851.195</span>
+										</div>
+									</a>
+								</div>
+								<div class="inner">
+									<a href="mailto:thtan0407@gmail.com">
+										<div class="icon">
+											<i class="far fa-envelope"></i>
+										</div>
+										<div class="text">
+											<b>Mail:</b>
+											<span>thtan0407@gmail.com</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="middle-side">
+								<div class="inner">
+									<a href="index.html">
+										<img src="./assets/images/logo.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="right-side">
+								<div class="middle-side">
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Tìm kiếm ...">
+											<button type="submit"><i class="far fa-search"></i></button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="row row-5">
+						<div class="col-lg-10">
+							<div class="left-side">
+								<ul>
+									<li>
+										<a href="danh-muc-tac-pham.html">
+											Tác phẩm
+											<i class="fas fa-caret-down"></i>
+										</a>
+										<ul>
+											<li>
+												<a href="danh-muc-tac-pham.html">
+													Tranh lụa và các tác phẩm hội hoạ
+												</a>
+											</li>
+											<li>
+												<a href="danh-muc-tac-pham.html">
+													Tranh sơn mài
+												</a>
+											</li>
+											<li>
+												<a href="danh-muc-tac-pham.html">
+													Sản phẩm nghệ thuật ứng dụng từ tranh
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:;">
+											Về tác giả
+											<i class="fas fa-caret-down"></i>
+										</a>
+										<ul>
+											<li>
+												<a href="gioi-thieu.html">
+													Giới thiệu tác giả
+												</a>
+											</li>
+											
+											<li>
+												<a href="chi-tiet-bai-viet.html">
+													Giải thưởng
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="danh-muc-bai-viet.html">
+											Câu chuyện sáng tác
+										</a>
+									</li>
+									<li>
+										<a href="danh-muc-bai-viet.html">
+											Báo chí viết về Lâm Thanh
+										</a>
+									</li>
+									<li>
+										<a href="danh-muc-bai-viet.html">
+											Hoạt động
+										</a>
+									</li>
+									<li>
+										<a href="lien-he.html">
+											Liên hệ
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2">
+							<div class="right-side">
+								<div class="dropdown">
+									<a href="gio-hang.html">
+										<i class="fas fa-shopping-bag"></i>
+										Giỏ hàng (<span id="numberCart">0</span>)
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main">
+			<section id="banner" class="banner">
+				<div class="slider stick-dots">
+					<div class="slide">
+						<div class="slide-img">
+							<img src="./assets/images/banner/1.jpg" alt=""
+							     class="full-image animated" data-animation-in="zoomInImage"/>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide-img">
+							<img src="./assets/images/banner/2.jpg" alt=""
+							     class="full-image animated" data-animation-in="zoomInImage"/>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide-img">
+							<img src="./assets/images/banner/3.jpg" alt=""
+							     class="full-image animated" data-animation-in="zoomInImage"/>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide-img">
+							<img src="./assets/images/banner/4.jpg" alt=""
+							     class="full-image animated" data-animation-in="zoomInImage"/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="breadcrumb-theme">
+				<nav class="breadcrumb">
+					<a class="breadcrumb-item" href="#">
+						<i class="far fa-home"></i>Trang chủ
+					</a>
+					<span class="breadcrumb-item active">Thanh toán</span>
+				</nav>
+			</div>
+			<div class="payment">
+				<div class="payment-inner">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="heading-02">
+									<h4>Đơn đặt hàng</h4>
+									<ul>
+										<li>
+											Quý khách vui lòng kiểm tra lại thông tin bên dưới trước khi tiến hàng đặt
+											hàng
+										</li>
+										<li>
+											Sau khi nhấn nút [ ĐẶT HÀNG ], nhân viên cửa hàng sẽ liên hệ với quý khách
+											để
+											xác nhận đơn hàng và hoàn tất quá trình đặt hàng.
+										</li>
+									</ul>
+									<p>
+										Xin cảm ơn Quý khách đã mua hàng!
+									</p>
+								</div>
+							</div>
+							<div class="col-md-7 col-lg-8">
+								<form action="" class="form-effect">
+									<h4>
+										Thông tin giao hàng
+									</h4>
+									<span>
+									Vui lòng nhập đầy đủ các trường có dấu *
+								</span>
+									<div class="group-effect">
+										<input type="text" tabindex="1" name="" id="fullnamePayment"
+										       class="input-effect"
+										       autocomplete="off" required="">
+										<label class="label-effect" for="fullnamePayment">
+											<i class="fas fa-address-card"></i>
+											<span>Họ & tên *</span>
+										</label>
+									</div>
+									<div class="group-effect">
+										<input type="tel" tabindex="3" name="" id="phonePayment"
+										       class="input-effect"
+										       autocomplete="off" required="">
+										<label class="label-effect" for="phonePayment">
+											<i class="fas fa-phone-alt"></i>
+											<span>Số điện thoại *</span>
+										</label>
+									</div>
+									<div class="group-effect">
+										<input type="email" tabindex="2" name="" id="emailPayment"
+										       class="input-effect"
+										       autocomplete="off" required="">
+										<label class="label-effect" for="emailPayment">
+											<i class="fas fa-envelope"></i>
+											<span>Email *</span>
+										</label>
+									</div>
+									<div class="group-effect">
+										<input type="text" tabindex="1" name="" id="addressPayment"
+										       class="input-effect"
+										       autocomplete="off" required="">
+										<label class="label-effect" for="addressPayment">
+											<i class="fas fa-map-marker-alt"></i>
+											<span>Địa chỉ *</span>
+										</label>
+									</div>
+									<div class="group-effect">
+										<input type="text" tabindex="1" name="" id="provincePayment"
+										       class="input-effect"
+										       autocomplete="off" required="">
+										<label class="label-effect" for="provincePayment">
+											<i class="fas fa-map"></i>
+											<span>Tỉnh thành *</span>
+										</label>
+									</div>
+									<div class="group-effect">
+										<input type="text" tabindex="1" name="" id="districtPayment"
+										       class="input-effect"
+										       autocomplete="off" required="">
+										<label class="label-effect" for="districtPayment">
+											<i class="fas fa-map-signs"></i>
+											<span>Quận huyện *</span>
+										</label>
+									</div>
+									<div class="group-effect">
+										<input type="text" tabindex="1" name="" id="postalPayment"
+										       class="input-effect"
+										       autocomplete="off" required="">
+										<label class="label-effect" for="postalPayment">
+											<i class="fas fa-barcode-alt"></i>
+											<span>Postal/Zip Code</span>
+										</label>
+									</div>
+									<div class="group-effect">
+										<select name="" class="input-effect" id="countryPayment">
+											<!-- để 1 option rỗng nha bình -->
+											<option value=""></option>
+											<option value="Vietnam" selected>Vietnam</option>
+											<option value="Japan">Japan</option>
+											<option value="Cambodia">Cambodia</option>
+											<option value="Thailand">Thailand</option>
+											<option value="Vietnam">Vietnam</option>
+											<option value="Vietnam">Vietnam</option>
+											<option value="Vietnam">Vietnam</option>
+											<option value="Vietnam">Vietnam</option>
+											<option value="Vietnam">Vietnam</option>
+											<option value="Vietnam">Vietnam</option>
+											<option value="Vietnam">Vietnam</option>
+										</select>
+										<label class="label-effect" for="countryPayment">
+											<i class="fas fa-globe-americas"></i>
+											<span>Quốc gia</span>
+										</label>
+									</div>
+									<h4>
+										Hình thức thanh toán
+									</h4>
+									<div class="group-effect form-group">
+										<div class="custom-control custom-radio custom-control-inline">
+											<input type="radio" id="bankingPayment" name="banking" checked
+											       class="custom-control-input">
+											<label class="custom-control-label"
+											       for="bankingPayment">Chuyển khoản ngân hàng
+											</label>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="col-md-5 col-lg-4">
+								<div class="payment-right">
+									<h4>
+										Danh sách sản phẩm
+									</h4>
+									<span>
+									 Vui lòng kiểm tra lại danh sách tác phẩm
+									</span>
+									<div class="list-product-payment">
+										<ul class="mb-0 list-unstyled">
+											<li>
+												<div class="product-payment-image">
+													<img src="./assets/images/product/1.jpg">
+												</div>
+												<div class="product-payment-content">
+													<div class="product-payment-info">
+														<div class="product-payment-title">
+															<a href="chi-tiet-tac-pham.html">
+																<h3>Tác phẩm: nude</h3>
+															</a>
+														</div>
+														<div class="product-payment-amount">
+															Số lượng: 1
+														</div>
+													</div>
+													<div class="product-payment-price">
+														$ 4.000
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="product-payment-image">
+													<img src="./assets/images/product/1.jpg">
+												</div>
+												<div class="product-payment-content">
+													<div class="product-payment-info">
+														<div class="product-payment-title">
+															<a href="chi-tiet-tac-pham.html">
+																<h3>Tác phẩm: nude</h3>
+															</a>
+														</div>
+														<div class="product-payment-amount">
+															Số lượng: 1
+														</div>
+													</div>
+													<div class="product-payment-price">
+														$ 4.000
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="product-payment-image">
+													<img src="./assets/images/product/1.jpg">
+												</div>
+												<div class="product-payment-content">
+													<div class="product-payment-info">
+														<div class="product-payment-title">
+															<a href="chi-tiet-tac-pham.html">
+																<h3>Tác phẩm: nude</h3>
+															</a>
+														</div>
+														<div class="product-payment-amount">
+															Số lượng: 1
+														</div>
+													</div>
+													<div class="product-payment-price">
+														$ 4.000
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="product-payment-image">
+													<img src="./assets/images/product/1.jpg">
+												</div>
+												<div class="product-payment-content">
+													<div class="product-payment-info">
+														<div class="product-payment-title">
+															<a href="chi-tiet-tac-pham.html">
+																<h3>Tác phẩm: nude</h3>
+															</a>
+														</div>
+														<div class="product-payment-amount">
+															Số lượng: 1
+														</div>
+													</div>
+													<div class="product-payment-price">
+														$ 4.000
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="payment-total-bottom">
+										<div class="total-flex">
+											<p>Tổng tiền tác phẩm</p>
+											<input type="hidden" value="8000" name="totalFix" id="totalFix">
+											<p id="price-after-discount"><span>$ 8.000</span></p>
+										</div>
+										<div class="total-button">
+											<a href="gio-hang.html">
+												<i class="fal fa-chevron-left"></i> Quay về giỏ hàng </a>
+											<button type="submit" class="btn btn-primary"
+											        id="buttonPayment">Đặt hàng
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="top">
+				<div class="container-fluid px-0">
+					<div class="row no-gutters">
+						<div class="col-lg-6">
+							<div class="footer-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2006905.006167188!2d106.695228!3d10.754792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City%2C%20Vietnam!5e0!3m2!1sen!2sus!4v1612498206210!5m2!1sen!2sus"></iframe>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="footer-inner">
+								<div class="footer-item">
+									<div class="footer-heading">
+										Liên hệ
+									</div>
+									<ul>
+										<li>
+									<span>
+										<i class="far fa-map-marker-alt"></i>
+									</span>
+											<a href="#">Hồ Chí Minh City</a>
+										</li>
+										<li>
+									<span>
+										<i class="fab fa-facebook-f"></i>
+									</span>
+											<a href="https://facebook.com/hoasi.lamthanh">hoasi.lamthanh</a>
+										</li>
+										<li>
+									<span>
+										<i class="far fa-envelope"></i>
+									</span>
+											<a href="mailto:thtan0407@gmail.com">thtan0407@gmail.com</a>
+										</li>
+										<li>
+									<span>
+										<i class="far fa-phone-alt"></i>
+									</span>
+											<a href="tel:0333851195">0333.851.195</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer-item">
+									<div class="footer-heading">
+										Liên hệ
+									</div>
+									<ul>
+										<li>
+											<a href="index.html">Trang chủ</a>
+										</li>
+										<li>
+											<a href="danh-muc-tac-pham">Tác phẩm</a>
+										</li>
+										<li>
+											<a href="gioi-thieu.html">Giới thiệu tác phẩm</a>
+										</li>
+										<li>
+											<a href="danh-muc-bai-viet.html">Câu chuyện sáng tác</a>
+										</li>
+										<li>
+											<a href="chi-tiet-bai-viet.html">Giải thưởng</a>
+										</li>
+										<li>
+											<a href="danh-muc-bai-viet.html">Báo chí viết về Lâm Thanh</a>
+										</li>
+										<li>
+											<a href="danh-muc-bai-viet.html">Hoạt động</a>
+										</li>
+										<li>
+											<a href="lien-he.html">Liên hệ</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							© Bản quyền thuộc về họa sĩ Lâm Thanh. Sử dụng lại thông tin trên website này phải được sự
+							chấp
+							thuận của Lâm Thanh.
+							Design by <a href="https://facebook.com/thtan0407">TES</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</div>
+
+<script type="text/javascript" src="./assets/plugin/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/slick/slick-animation.js"></script>
+<script type="text/javascript" src="./assets/plugin/slick/slick.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/fancybox/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/toastr/toastr.min.js"></script>
+<script type="text/javascript" src="./assets/js/theme-script.js"></script>
+</body>
+</html>
